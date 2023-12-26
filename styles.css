@@ -4,13 +4,16 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
+}
+.light-theme{
     background-color: white;
 }
 .calculator{
     max-width: 250px;
-    border: 10px solid black;
+    /* border: 10px solid white; */
     background-color: black;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     
 }
 #result{
@@ -63,3 +66,5 @@ button{
     text-indent: 15px;
     border-radius: 50px;
 }
+
+
