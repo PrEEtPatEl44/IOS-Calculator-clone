@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IOS-Calculator-clone</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="calculator">
-        <input id="display" readonly>
+        <input id="result" readonly>
         
         <div class="btn">
 
-            <button class="gray-btn" onclick="show('C')">C</button>
+            <button class="gray-btn" onclick="clearD()">C</button>
             <button class="gray-btn" onclick="show('+-')">+/-</button>
             <button class="gray-btn" onclick="show('%')">%</button>
             <button class="yellow-btn" onclick="show('/')">/</button>
@@ -28,10 +28,9 @@
             <button class="black-btn" onclick="show('2')">2</button>
             <button class="black-btn" onclick="show('3')">3</button>
             <button class="yellow-btn" onclick="show('+')">+</button>
-            <button class="black-btn" onclick="show('0')">0</button>
-            <button class="black-btn" onclick="show('0')"></button>
-            <button class="black-btn" onclick="show('.')">.</button>
-            <button class="yellow-btn" onclick="show('=')">=</button>
+            <button class="black-btn sp"  onclick="show('0')">0</button>
+            <button class="black-btn " onclick="show('.')">.</button>
+            <button class="yellow-btn" onclick="calculate()">=</button>
         </div>
         
         
