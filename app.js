@@ -48,3 +48,14 @@ function evalExpression(expression) {
 
   return result;
 }
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Backspace") {
+        clearD();
+    } else if (e.key === "=" || e.key === "Enter") {
+        e.preventDefault();
+        calculate();
+    } else if(/[0-9]|\+|-|\*|%|\/|\./.test(e.key)){
+        show(e.key);
+    }
+
+});
