@@ -1,3 +1,5 @@
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -5,9 +7,20 @@ body{
     align-items: center;
     height: 100vh;
     background-color: black;
+    position: relative;
 }
+#toggle-light{
+    
+    background-color: black;
+    position: absolute;
+    top:0;
+    border-radius: 15px;
+    right: 0;
+}
+
 .light-theme{
     background-color: white;
+    
 }
 .calculator{
     max-width: 250px;

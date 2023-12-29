@@ -63,5 +63,14 @@ document.addEventListener("keydown", function(e) {
 const light=document.querySelector("#toggle-light");
 const body=document.body;
 light.addEventListener("click", function(){
+  
   body.classList.toggle("light-theme");
+  if(body.classList.contains("light-theme")){
+    light.innerHTML="🌞";
+    light.style.backgroundColor="white";
+  }
+  else{
+    light.innerHTML="🌛";
+    light.style.backgroundColor="black";
+  }
 })
