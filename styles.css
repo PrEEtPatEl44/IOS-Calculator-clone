@@ -33,14 +33,14 @@ body {
 
 #result {
     text-align: right;
-    position: relative;
+   
     font-size: 40px;
     overflow: scroll;
     background-color: black;
     /* border-radius: 320px; */
     color: white;
-    width: 220px;
-    height: 50px;
+    width: 90%;
+    height: 90%;
     margin: 10px;
     border: none;
 }
