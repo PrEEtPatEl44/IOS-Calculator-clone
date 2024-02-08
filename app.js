@@ -66,11 +66,12 @@ light.addEventListener("click", function(){
   
   body.classList.toggle("light-theme");
   if(body.classList.contains("light-theme")){
-    light.innerHTML="🌞";
+    light.innerHTML="🌛";
     light.style.backgroundColor="white";
   }
   else{
-    light.innerHTML="🌛";
+    light.innerHTML="🌞";
     light.style.backgroundColor="black";
   }
 })
+
