@@ -13,3 +13,4 @@ Keyboard Support: The app is designed to work seamlessly with both mouse input a
 <b><h3>link</h3></b>
 https://preetpatel44.github.io/IOS-Calculator-clone/
 $c = \sqrt{a^2 + b^2}$
+$$c = \sqrt{a^2 + b^2}$$
